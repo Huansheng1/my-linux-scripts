@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/sudo /bin/bash
 #
 #           Huansheng1 my-linux-scripts
 #   GitHub: https://github.com/Huansheng1/my-linux-scripts
