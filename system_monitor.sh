@@ -9,6 +9,9 @@
 #   This only work on  Linux systems. Please
 #   open an issue if you notice any bugs.
 #
+#   来自 - https://mp.weixin.qq.com/s/M2qq93YKvmdsHSLcnm7S_Q
+#
+#
 
 clear 
 function cpu {   
