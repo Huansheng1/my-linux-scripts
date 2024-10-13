@@ -1,4 +1,5 @@
 # 幻生个人Linux常用脚本
+> 本仓库脚本，仅在个人`Centos`系统中测试通过！
 
 ## 自写/魔改脚本
 ### 查看系统资源占用情况
@@ -31,3 +32,9 @@
 一键命令：
 
 `wget -qO- https://ghp.ci/https://raw.githubusercontent.com/bin456789/reinstall/main/reinstall.sh | bash`
+### 一键初始化系统
+> 进行常规的系统初始化设置
+
+一键命令：
+
+`wget -qO- https://ghp.ci/https://raw.githubusercontent.com/Huansheng1/my-linux-scripts/main/linux_init_settings.sh | bash`
