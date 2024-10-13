@@ -1,4 +1,19 @@
-#! /bin/bash
+#!/bin/bash
+#
+#           Huansheng1 my-linux-scripts
+#   GitHub: https://github.com/Huansheng1/my-linux-scripts
+#
+#   使用方式
+#   root用户执行：wget -qO- https://ghp.ci/https://raw.githubusercontent.com/Huansheng1/my-linux-scripts/main/procInfo_by_name.sh | bash
+#
+#   This only work on  Linux systems. Please
+#   open an issue if you notice any bugs.
+#
+#   来自 - https://mp.weixin.qq.com/s/_kseKSW-IAErrnR5Qpxe_w
+#
+#
+
+clear 
 # Function: 根据输入的程序的名字过滤出所对应的PID，并显示出详细信息，如果有几个PID，则全部显示
 read -p "请输入要查询的进程名：" NAME
 N=`ps -aux | grep $NAME | grep -v grep | wc -l` ##统计进程总数
