@@ -1,6 +1,6 @@
 # 幻生个人Linux常用脚本
 
-## 自写脚本
+## 自写/魔改脚本
 ### 查看系统资源占用情况
 一键命令：
 
@@ -13,3 +13,9 @@
 一键命令：
 
 `wget -qO- https://ghp.ci/https://raw.githubusercontent.com/Huansheng1/my-linux-scripts/main/QLToolsV2_fast_install_or_uninstall.sh | bash`
+
+## 他人脚本
+### 一键切换Linux版本
+一键命令：
+
+`wget -qO- https://ghp.ci/https://raw.githubusercontent.com/bin456789/reinstall/main/reinstall.sh | bash`
